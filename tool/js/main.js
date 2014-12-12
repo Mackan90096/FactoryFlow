@@ -4,8 +4,8 @@ $(document).ready(function(){
   var appWin = $('#app');
   
   $('.mach').on('click',function(){
-    appWin.append("<div class='item "+this.id+"'></div>").draggable();
-    //console.log(this);
+    p = appWin.append("<div class='item "+this.id+"'></div>");
+    p.draggable();
     
   });
   
