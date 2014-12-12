@@ -6,7 +6,14 @@ $(document).ready(function(){
   $('.mach').on('click',function(){
     p = appWin.append("<div class='item "+this.id+"'></div>");
     $('.item').draggable();
-    
+  });
+  
+  $('.item').on('click', function(){
+    $(this).addClass(' selected');
+  });
+  
+  $('#app').on('click', function(){
+    $('.item').removeClass(' selected');
   });
   
   appWin.append(machines);
