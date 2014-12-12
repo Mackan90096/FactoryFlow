@@ -9,7 +9,7 @@ $(document).ready(function(){
   });
   
   $('.item').on('click', function(){
-    $(this).addClass(' selected');
+    $(this).addClass('selected', 1);
   });
   
   /*$('#app').on('click', function(){
