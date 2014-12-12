@@ -5,7 +5,7 @@ $(document).ready(function(){
   
   $('.mach').on('click',function(){
     p = appWin.append("<div class='item "+this.id+"'></div>");
-    $('.item').draggable();
+    $('.item').draggable({ grid: [ 16, 16 ] });
   });
   
   $('body').on('click', '.item', function(){
