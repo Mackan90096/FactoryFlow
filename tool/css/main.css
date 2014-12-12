@@ -12,4 +12,11 @@ body{
 
 .item{
   background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+}
+
+#app{
+  width: 100%;
+  height: 100%;
 }
