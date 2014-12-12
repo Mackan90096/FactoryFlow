@@ -10,7 +10,7 @@ $(document).ready(function(){
   
   $('body').on('click', '.item', function(){
     $('.item').removeClass('selected');
-    $(this).addClass('selected', 1000);
+    $(this).addClass('selected', 1);
   });
   
   $('#app').on('click', function(){
