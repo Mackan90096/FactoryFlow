@@ -1,11 +1,11 @@
 {
-  "stone-furnace" = {
+  "stone-furnace": {
     "image": "stone-furnace.png",
     "name": "Stone Furnace",
     "type": "Furnace",
     "group": "Production"
   },
-  "transport-belt" = {
+  "transport-belt": {
     "image": "transport-belt.png",
     "name": "Basic Transport Belt",
     "type": "Belt",
