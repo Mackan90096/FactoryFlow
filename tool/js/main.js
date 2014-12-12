@@ -1,13 +1,11 @@
 $(document).ready(function(){
-  var items = [];
-  var machines = $.getJSON('./js/obj.json', function(data){
-  $.each( data, function( key, val ) {
-    items.push(key+"="+val);
-  });
-  console.log(items);
-  });
+  var machines = $.getJSON('./js/obj.json');
   
   var appWin = $('#app');
+  
+  $('.mach').on('click',function(e){
+    appWin.append("<div class='item "+machines[this.id]+"'></div>");
+  });
   
   appWin.append(machines);
 });
