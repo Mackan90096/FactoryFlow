@@ -1,6 +1,5 @@
 $(document).ready(function(){
-  var obj = $.getJSON('./js/obj.json');
-    var machines = $.parseJSON(obj);
+  var machines = $.getJSON('./js/obj.json');
   
   var appWin = $('#app');
   
