@@ -4,7 +4,9 @@ $(document).ready(function(){
   var appWin = $('#app');
   
   $('.mach').on('click',function(e){
-    appWin.append("<div class='item "+e.id+"'></div>").draggable();
+    //appWin.append("<div class='item "+e.id+"'></div>").draggable();
+    console.log(e);
+    
   });
   
   appWin.append(machines);
