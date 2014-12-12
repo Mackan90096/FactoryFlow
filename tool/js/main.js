@@ -8,7 +8,7 @@ $(document).ready(function(){
     $('.item').draggable();
   });
   
-  $('.item').on('click', function(){
+  $('.item').click(function(){
     $(this).addClass('selected', 1);
   });
   
