@@ -4,6 +4,8 @@ body{
 
 .stone-furnace{
   background-color: #000;
+  width: 32px;
+  height: 32px;
 }
 
 .basic-belt{
@@ -12,8 +14,8 @@ body{
 
 .item{
   background-repeat: no-repeat;
-  width: 32px;
-  height: 32px;
+  width: 16px;
+  height: 16px;
 }
 
 #app{
