@@ -9,6 +9,7 @@ $(document).ready(function(){
   });
   
   $('.item').click(function(){
+    console.log("item click");
     $(this).addClass('selected', 1);
   });
   
