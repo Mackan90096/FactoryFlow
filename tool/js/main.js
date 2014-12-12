@@ -3,8 +3,8 @@ $(document).ready(function(){
   
   var appWin = $('#app');
   
-  $('.mach').on('click',function(this){
-    appWin.append("<div class='item "+machines[this.id]+"'></div>").draggable();
+  $('.mach').on('click',function(e){
+    appWin.append("<div class='item "+e.id+"'></div>").draggable();
   });
   
   appWin.append(machines);
