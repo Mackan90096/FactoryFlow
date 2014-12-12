@@ -5,7 +5,7 @@ $(document).ready(function(){
   
   $('.mach').on('click',function(){
     p = appWin.append("<div class='item "+this.id+"'></div>");
-    p.draggable();
+    $('.item').draggable();
     
   });
   
