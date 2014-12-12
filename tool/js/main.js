@@ -3,7 +3,7 @@ $(document).ready(function(){
   
   var appWin = $('#app');
   
-  $('.mach').on('click',function(e){
+  $('.mach').on('click',function(this){
     appWin.append("<div class='item "+machines[this.id]+"'></div>").draggable();
   });
   
