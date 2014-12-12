@@ -12,9 +12,9 @@ $(document).ready(function(){
     $(this).addClass(' selected');
   });
   
-  $('#app').on('click', function(){
+  /*$('#app').on('click', function(){
     $('.item').removeClass(' selected');
-  });
+  });*/
   
-  appWin.append(machines);
+  //appWin.append(machines);
 });
