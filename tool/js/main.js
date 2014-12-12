@@ -3,9 +3,9 @@ $(document).ready(function(){
   
   var appWin = $('#app');
   
-  $('.mach').on('click',function(e){
+  $('.mach').on('click',function(){
     //appWin.append("<div class='item "+e.id+"'></div>").draggable();
-    console.log(e);
+    console.log(this);
     
   });
   
