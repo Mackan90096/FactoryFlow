@@ -3,12 +3,14 @@
     "image": "stone-furnace.png",
     "name": "Stone Furnace",
     "type": "Furnace",
-    "group": "Production"
+    "group": "Production",
+    "id": "stone-furnace"
   },
   "transport-belt": {
     "image": "transport-belt.png",
     "name": "Basic Transport Belt",
     "type": "Belt",
-    "group": "Production"
+    "group": "Production",
+    "id": "basic-belt"
   }
 }
