@@ -4,5 +4,5 @@ $(document).ready(function(){
   
   var appWin = $('#app');
   
-  appwin.append(machines);
+  appWin.append(machines);
 });
