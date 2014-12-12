@@ -7,14 +7,15 @@ $(document).ready(function(){
     p = appWin.append("<div class='item "+this.id+"'></div>");
     $('.item').draggable();
     $('.item').on('click',function(){
+    $('.item').removeClass('selected');
     console.log("item click");
     $(this).addClass('selected', 1);
-  });
+    });
   });
   
-  /*$('#app').on('click', function(){
+  $('#app').on('click', function(){
     $('.item').removeClass(' selected');
-  });*/
+  });
   
   //appWin.append(machines);
 });
