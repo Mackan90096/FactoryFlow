@@ -6,11 +6,11 @@ $(document).ready(function(){
   $('.mach').on('click',function(){
     p = appWin.append("<div class='item "+this.id+"'></div>");
     $('.item').draggable();
-    $('.item').on('click',function(){
+  });
+  
+  $('body').on('click', '.item', function(){
     $('.item').removeClass('selected');
-    console.log("item click");
-    $(this).addClass('selected', 1);
-    });
+    $(this).addClass('selected', 1000);
   });
   
   $('#app').on('click', function(){
