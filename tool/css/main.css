@@ -1,3 +1,15 @@
 body{
   background-color: #eee;
 }
+
+.stone-furnace{
+  background-color: #000;
+}
+
+.basic-belt{
+  background-color: yellow;
+}
+
+.item{
+  background-repeat: no-repeat;
+}
