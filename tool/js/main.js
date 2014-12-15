@@ -37,7 +37,7 @@ $(document).ready(function(){
       element.css({
         'webkit-transform' : 'rotate('+ degrees +'deg)',
         '-moz-transform' : 'rotate('+ degrees +'deg)',
-        'transform' : 'rotate('+ degrees +'deg)'});
+        'transform' : 'rotate('+ degrees +'deg)'
       });
     }
   });
