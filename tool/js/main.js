@@ -16,8 +16,18 @@ $(document).ready(function(){
   
     $('body').on('click', '.mach', function(){
        appWin.append("<div class='item "+this.id+"'></div>");
-        $('.item').draggable({ grid: [ 16, 16 ] });
-    });
+        $('.item').draggable({ 
+          grid: [ 16, 16 ] 
+          drag: function(event, ui){
+          var rotateCSS = 'rotate(' + ui.position.left + 'deg)';
+
+          $(this).css({
+          '-moz-transform': rotateCSS,
+          '-webkit-transform': rotateCSS
+          });
+      }
+     });
+  });
   
   //console.log(machines);
   
