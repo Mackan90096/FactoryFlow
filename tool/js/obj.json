@@ -19,5 +19,12 @@
     "type": "Inserter",
     "group": "Production",
     "id": "fast-inserter"
+  },
+  "wooden-chest": {
+    "image": "wood-chest.png",
+    "name": "Wooden Chest",
+    "type": "Chest",
+    "group": "Storage",
+    "id": "wooden-chest"
   }
 }
