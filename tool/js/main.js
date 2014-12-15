@@ -29,8 +29,10 @@ $(document).ready(function(){
   });
   
   var slider = $('#slider').slider({
+    'min':0,
+    'max':360,
     change: function(e, ui){
-    console.log(ui.value);
+    degrees = ui.value
     
     //var degrees = e.value; 
     if($('item').hasClass(' selected')){
