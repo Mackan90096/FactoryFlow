@@ -5,11 +5,11 @@ $(document).ready(function(){
   var machines = $.getJSON('./js/obj.json', function(data){
     items = [];
     $.each( data, function( key, val ) {
-      items.push( "<div class='mach' id='" + val['id'] + "'>" + val['id'] + "</div>" );
+      items.push(val['id']);
     });
     //console.log(items);
     $.each(items, function(a, b){
-      var c = menu.append(b);
+      var c = menu.append("<div class='mach "+b+"'></div>");
       c.on('click',function(){
         p = appWin.append("<div class='item "+b+"'></div>");
         //$('.item').draggable({ grid: [ 16, 16 ] });
