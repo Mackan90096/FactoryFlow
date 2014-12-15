@@ -16,16 +16,12 @@ $(document).ready(function(){
   
     $('body').on('click', '.mach', function(){
        appWin.append("<div class='item "+this.id+"'></div>");
+        $('.item').draggable({ grid: [ 16, 16 ] });
     });
   
   //console.log(machines);
   
   //menu.append("<div class='mach' id="+machines)
-  
-  $('.mach').on('click',function(){
-    p = appWin.append("<div class='item "+this.id+"'></div>");
-    $('.item').draggable({ grid: [ 16, 16 ] });
-  });
   
   $('body').on('click', '.item', function(){
     $('.item').removeClass('selected');
