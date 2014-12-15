@@ -10,10 +10,12 @@ $(document).ready(function(){
     console.log(items);
     $.each(items, function(a, b){
       console.log(a+" "+b);
-      menu.append("<div class='mach' id='"+b+"'>"+b+"</div>").on('click', function(){
-          appWin.append("<div class='item "+this.id+"'></div>");
-        });
+      menu.append("<div class='mach' id='"+b+"'>"+b+"</div>");
       });
+    });
+  
+    $('body').on('click', '.mach', function(){
+       appWin.append("<div class='item "+this.id+"'></div>");
     });
   
   //console.log(machines);
