@@ -12,7 +12,7 @@ $(document).ready(function(){
       var c = menu.append(b);
       c.on('click',function(){
         p = appWin.append("<div class='item "+b+"'></div>");
-        $('.item').draggable({ grid: [ 16, 16 ] });
+        //$('.item').draggable({ grid: [ 16, 16 ] });
       });
     });
   });
