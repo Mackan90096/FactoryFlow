@@ -35,7 +35,7 @@ $(document).ready(function(){
     degrees = ui.value
     
     //var degrees = e.value; 
-    if($('item').hasClass(' selected')){
+    if($('.item').hasClass(' selected')){
       var element = $('.selected');
       element.css({
         'webkit-transform' : 'rotate('+ degrees +'deg)',
