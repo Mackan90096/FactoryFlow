@@ -27,5 +27,11 @@
     "group": "Storage",
     "id": "wooden-chest"
   },
-  {
+  "asm-1": {
+    "image": "asm-1p.png",
+    "name": "Assembly Machine 1",
+    "type": "Assembly",
+    "group": "Assembly",
+    "id": "asm-1"
+  }
 }
