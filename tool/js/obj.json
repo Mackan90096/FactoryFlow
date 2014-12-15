@@ -12,5 +12,12 @@
     "type": "Belt",
     "group": "Production",
     "id": "basic-belt"
+  },
+  "fast-inserter": {
+    "image": "fast-inserter.png",
+    "name": "Fast Inserter",
+    "type": "Inserter",
+    "group": "Production",
+    "id": "fast-inserter"
   }
 }
