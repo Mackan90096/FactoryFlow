@@ -5,7 +5,7 @@ $(document).ready(function(){
   var machines = $.getJSON('./js/obj.json', function(data){
     items = [];
     $.each( data, function( key, val ) {
-      items.push( "<div class='mach' id='" + val + "'>" + val + "</div>" );
+      items.push( "<div class='mach' id='" + val['id'] + "'>" + val['id'] + "</div>" );
     });
     console.log(items);
     /*$.each(items, function(data){
