@@ -9,10 +9,9 @@ $(document).ready(function(){
     });
     //console.log(items);
     $.each(items, function(a, b){
-      var c = menu.append("<div class='mach "+b+"'></div>");
-      c.on('click',function(){
-        p = appWin.append("<div class='item "+b+"'></div>");
-        //$('.item').draggable({ grid: [ 16, 16 ] });
+      var c = menu.append("<div class='mach "+b+"'></div>").on('click', function(){
+        appWin.append("<div class='item "+b+"'></div>");
+      });
       });
     });
   });
