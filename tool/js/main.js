@@ -7,7 +7,7 @@ $(document).ready(function(){
     $.each( data, function( key, val ) {
       items.push(val['id']);
     });
-    //console.log(items);
+    console.log(items);
     $.each(items, function(a, b){
       var c = menu.append("<div class='mach' id='"+b+"'></div>").on('click', function(){
         appWin.append("<div class='item "+b+"'></div>");
@@ -15,7 +15,7 @@ $(document).ready(function(){
       });
     });
   
-  console.log(machines);
+  //console.log(machines);
   
   //menu.append("<div class='mach' id="+machines)
   
