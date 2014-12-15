@@ -26,7 +26,8 @@ $(document).ready(function(){
   $('body').on('click', '.item', function(){
     $('.item').removeClass('selected');
     $(this).addClass('selected', 1);
-    $(this).append("<div id='slide'></div>").slider();
+    $(this).append("<div id='slide' style='display:relative;top:5px'></div>");
+    $('#slide').slider();
   });
   
   $('#app').on('click', function(){
