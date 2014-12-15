@@ -30,7 +30,7 @@ $(document).ready(function(){
   
   var slider = $('#slider').slider({
     change: function(e, ui){
-    console.log("e: "+e+" ui: "+ui);
+    console.log(ui.value);
     
     //var degrees = e.value; 
     if($('item').hasClass(' selected')){
