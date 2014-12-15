@@ -11,7 +11,7 @@ $(document).ready(function(){
     $.each(items, function(a, b){
       var c = menu.append(b);
       c.on('click',function(){
-        p = appWin.append("<div class='item "+this.id+"'></div>");
+        p = appWin.append("<div class='item "+b+"'></div>");
         $('.item').draggable({ grid: [ 16, 16 ] });
       });
     });
