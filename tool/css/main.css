@@ -14,3 +14,11 @@ body{
 .selected{
   border: 1px solid turquoise;
 }
+
+.menu{
+  height: 50px;
+}
+
+.mach{
+  display: inline-block;
+}
