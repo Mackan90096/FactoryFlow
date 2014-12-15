@@ -10,9 +10,9 @@ $(document).ready(function(){
     console.log(items);
     $.each(items, function(a, b){
       console.log(a+" "+b);
-      var c = menu.append("<div class='mach' id='"+b+"'></div>").on('click', function(){
-        appWin.append("<div class='item "+b+"'></div>");
-      });
+      menu.append("<div class='mach' id='"+b+"'></div>").on('click', function(){
+          appWin.append("<div class='item "+b+"'></div>");
+        });
       });
     });
   
