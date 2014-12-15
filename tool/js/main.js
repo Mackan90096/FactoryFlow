@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var machines = $.getJSON('./js/obj.json');
+  var machines = $.getJSON('./js/obj.json')['responseJSON'];
   var appWin = $('#app');
   var menu = $('#menu');
   
