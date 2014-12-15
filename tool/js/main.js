@@ -28,9 +28,8 @@ $(document).ready(function(){
     $(this).addClass('selected', 1);
   });
   
-  var slider = $('#slider').slider();
-  
-  slider.on('change', function(data){
+  var slider = $('#slider').slider({
+    change: function(data){
     deg, degrees = this.value; 
     if($('item').hasClass(' selected')){
       var element = $('.selected');
@@ -39,7 +38,7 @@ $(document).ready(function(){
         '-moz-transform' : 'rotate('+ degrees +'deg)',
         'transform' : 'rotate('+ degrees +'deg)'
       });
-    }
+    }}
   });
   
   $('#app').on('click', function(){
