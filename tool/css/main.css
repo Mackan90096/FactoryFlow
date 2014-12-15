@@ -19,3 +19,10 @@ body{
   height: 100px;
   overflow: scroll;
 }
+
+#slider{
+  max-width: 128px;
+position: relative;
+top: 6px;
+right: -25em;
+}
