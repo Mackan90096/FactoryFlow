@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var appWin = $('#app');
-  var menu = $('#menu');
+  var menu = $('.menu');
   
   var machines = $.getJSON('./js/obj.json', function(data){
     items = [];
