@@ -16,7 +16,8 @@ body{
 }
 
 .menu{
-  height: 50px;
+  height: 10px;
+  overflow: scroll;
 }
 
 .mach{
