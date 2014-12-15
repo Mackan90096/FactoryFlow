@@ -10,7 +10,7 @@ $(document).ready(function(){
     //console.log(items);
     $.each(items, function(a, b, data){
       //menu.append(data);
-      console.log(a+" "+b+" "+c);
+      console.log(a+" "+b+" "+data);
     });
   });
   
