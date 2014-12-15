@@ -8,9 +8,8 @@ $(document).ready(function(){
       items.push( "<div class='mach' id='" + val['id'] + "'>" + val['id'] + "</div>" );
     });
     //console.log(items);
-    $.each(items, function(a, b, data){
-      //menu.append(data);
-      console.log(a+" "+b+" "+data);
+    $.each(items, function(a, b){
+      menu.append(b);
     });
   });
   
