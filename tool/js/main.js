@@ -5,12 +5,12 @@ $(document).ready(function(){
   var machines = $.getJSON('./js/obj.json', function(data){
     items = [];
     $.each( data, function( key, val ) {
-      items.push(val['id']);
+      items.push(val);
     });
     console.log(items);
     $.each(items, function(a, b){
       console.log(a+" "+b);
-      menu.append("<div class='mach' id='"+b+"'>"+b+"</div>");
+      menu.append("<div class='mach' id='"+b['id']+"'>"+b['name']+"</div>");
       });
     });
   
