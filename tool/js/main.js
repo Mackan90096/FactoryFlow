@@ -9,7 +9,11 @@ $(document).ready(function(){
     });
     //console.log(items);
     $.each(items, function(a, b){
-      menu.append(b);
+      var c = menu.append(b);
+      c.on('click',function(){
+        p = appWin.append("<div class='item "+this.id+"'></div>");
+        $('.item').draggable({ grid: [ 16, 16 ] });
+      });
     });
   });
   
