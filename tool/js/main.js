@@ -7,10 +7,10 @@ $(document).ready(function(){
     $.each( data, function( key, val ) {
       items.push( "<div class='mach' id='" + val['id'] + "'>" + val['id'] + "</div>" );
     });
-    console.log(items);
-    /*$.each(items, function(data){
+    //console.log(items);
+    $.each(items, function(data){
       menu.append(data);
-    });*/
+    });
   });
   
   console.log(machines);
