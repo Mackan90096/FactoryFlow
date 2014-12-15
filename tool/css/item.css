@@ -1,14 +1,14 @@
  /* Items */
 .stone-furnace{
   background-color: #000;
-  width: 32px;
-  height: 32px;
+  width: 64px;
+  height: 64px;
 }
 
 .basic-belt{
   background-color: yellow;
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
 }
 
 .item{
@@ -17,13 +17,20 @@
 
 .fast-inserter{
   background-color: blue;
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
 }
 
 .wooden-chest{
   background-color: brown;
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
 }
+
+.asm-1{
+ background-color: cyan;
+ width: 64px;
+ height: 64px;
+}
+
 /* End Items */
