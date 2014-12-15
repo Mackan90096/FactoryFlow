@@ -1,30 +1,6 @@
 body{
   background-color: #eee;
 }
- /* Items */
-.stone-furnace{
-  background-color: #000;
-  width: 32px;
-  height: 32px;
-}
-
-.basic-belt{
-  background-color: yellow;
-  width: 16px;
-  height: 16px;
-}
-
-.item{
-  background-repeat: no-repeat;
-}
-
-.fast-inserter{
-  background-color: blue;
-  width: 32px;
-  height: 16px;
-}
-
-/* End Items */
 
 #app{
   width: 100%;
