@@ -29,8 +29,8 @@ $(document).ready(function(){
   });
   
   var slider = $('#slider').slider({
-    'min':0,
-    'max':360,
+    min:0,
+    max:360,
     change: function(e, ui){
     degrees = ui.value
     
