@@ -1,7 +1,7 @@
 body{
   background-color: #eee;
 }
-
+ /* Items */
 .stone-furnace{
   background-color: #000;
   width: 32px;
@@ -17,6 +17,14 @@ body{
 .item{
   background-repeat: no-repeat;
 }
+
+.fast-inserter{
+  background-color: blue;
+  width: 32px;
+  height: 16px;
+}
+
+/* End Items */
 
 #app{
   width: 100%;
