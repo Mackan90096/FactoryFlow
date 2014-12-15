@@ -29,8 +29,8 @@ $(document).ready(function(){
   });
   
   var slider = $('#slider').slider({
-    change: function(data){
-    var degrees = this.value; 
+    change: function(e, ui){
+    var degrees = e.value; 
     if($('item').hasClass(' selected')){
       var element = $('.selected');
       element.css({
