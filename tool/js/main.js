@@ -1,7 +1,16 @@
 $(document).ready(function(){
-  var machines = $.getJSON('./js/obj.json')['responseJSON'];
   var appWin = $('#app');
   var menu = $('#menu');
+  
+  var machines = $.getJSON('./js/obj.json', function(data){
+    items = [];
+    $.each( data, function( key, val ) {
+      items.push( "<div class='mach' id='" + val + "'>" + val + "</div>" );
+    });
+    $.each(items, function(data){
+      menu.append(data);
+    });
+  });
   
   console.log(machines);
   
