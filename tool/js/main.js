@@ -32,7 +32,7 @@ $(document).ready(function(){
     min:0,
     max:360,
     change: function(e, ui){
-    degrees = ui.value
+    degrees = ui.value;
     
     //var degrees = e.value; 
     if($('.item').hasClass(' selected')){
