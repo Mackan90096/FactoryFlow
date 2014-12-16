@@ -10,17 +10,18 @@ $(document).ready(function(){
     this.css({'-webkit-transform': 'rotate('+deg+'deg)'});
     return this; 
   };
+  
+function foo(a){
+  console.log(a);
+}
 
-function toImage(canvas, callback) {
+function toImage(can, callback) {
   var image = new Image();
+  canvas = document.getElementById(can);
   image.onload = function(){
     callback(image);
   }
   image.src = canvas.toDataURL("image/png");
-}
-
-function foo(a){
-  console.log(a);
 }
   
   var appWin = $('#app');
