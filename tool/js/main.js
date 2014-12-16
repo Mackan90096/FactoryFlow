@@ -1,6 +1,8 @@
 $(document).ready(function(){
 
   $.fn.rotate = function(deg) {
+    degr = this.css({'tranform': 'rotate'});
+    console.log(degr);
     this.css({'transform': 'rotate('+deg+'deg)'});
     this.css({'-ms-transform': 'rotate('+deg+'deg)'});
     this.css({'-moz-transform': 'rotate('+deg+'deg)'});
