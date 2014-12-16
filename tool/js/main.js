@@ -15,7 +15,7 @@ function foo(a){
   console.log(a);
 }
 
-function toImage()) {
+function toImage(){
   canvas = document.getElementById('app').getContext('2d');
   //image.src = canvas.toDataURL("image/png");
   window.open('', canvas.toDataURL());
