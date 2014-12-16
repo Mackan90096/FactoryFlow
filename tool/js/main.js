@@ -16,7 +16,7 @@ function foo(a){
 }
 
 function toImage(){
-  html2canvas(document.getElementById('app'), {
+  html2canvas(document.body, {
   onrendered: function(canvas) {
     console.log(canvas);
     window.open('', canvas);
