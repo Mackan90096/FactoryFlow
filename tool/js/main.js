@@ -18,10 +18,9 @@ function foo(a){
 function toImage(){
   html2canvas(document.getElementById('app'), {
   onrendered: function(canvas) {
-    document.body.appendChild(canvas);
-  },
-  width: 300,
-  height: 300
+    console.log(canvas);
+    window.open('', canvas);
+  }
   });
 }
   
