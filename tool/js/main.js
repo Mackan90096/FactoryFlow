@@ -15,12 +15,8 @@ function foo(a){
   console.log(a);
 }
 
-function toImage(can, callback) {
-  var image = new Image();
-  canvas = document.getElementById(can).getContext('2d');
-  image.onload = function(){
-    callback(image);
-  }
+function toImage()) {
+  canvas = document.getElementById('app').getContext('2d');
   //image.src = canvas.toDataURL("image/png");
   window.open('', canvas.toDataURL());
 }
