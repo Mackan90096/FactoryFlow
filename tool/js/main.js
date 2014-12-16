@@ -1,4 +1,17 @@
 $(document).ready(function(){
+  
+  (function( $ ){
+$.fn.rotate = function(deg) {
+    this.css({'transform': 'rotate('+deg+'deg)'});
+    this.css({'-ms-transform': 'rotate('+deg+'deg)'});
+    this.css({'-moz-transform': 'rotate('+deg+'deg)'});
+    this.css({'-o-transform': 'rotate('+deg+'deg)'}); 
+    this.css({'-webkit-transform': 'rotate('+deg+'deg)'});
+    return this; 
+};
+})( jQuery );
+
+  
   var appWin = $('#app');
   var menu = $('.menu');
   
@@ -17,6 +30,12 @@ $(document).ready(function(){
     $('body').on('click', '.mach', function(){
        var p = appWin.append("<div class='item "+this.id+"'></div>").css('top','0px').css('left','0px');
         $('.item').draggable({ grid:[ 16, 16 ], containment:'#app' });
+  });
+  
+  $('#app').on('keyup', function(e){
+    if(e.keyCode == 82){
+      $('.selected').rotate(90);
+    }
   });
   
   //console.log(machines);
