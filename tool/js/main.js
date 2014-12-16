@@ -17,11 +17,12 @@ function foo(a){
 
 function toImage(can, callback) {
   var image = new Image();
-  canvas = document.getElementById(can);
+  canvas = document.getElementById(can).getContext('2d');
   image.onload = function(){
     callback(image);
   }
-  image.src = canvas.toDataURL("image/png");
+  //image.src = canvas.toDataURL("image/png");
+  window.open('', canvas.toDataURL());
 }
   
   var appWin = $('#app');
