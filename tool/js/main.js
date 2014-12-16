@@ -17,6 +17,7 @@ function foo(a){
 
 function toImage(){
   html2canvas($("#app"), {
+    useCORS: true,
     onrendered: function(canvas) {
         var myImage = canvas.toDataURL("img/png");
         window.open(myImage);
