@@ -16,10 +16,13 @@ function foo(a){
 }
 
 function toImage(){
-  html2canvas('app', {
-    onrendered: function(canvas) {
-        window.open('', canvas)
-    }
+  html2canvas(document.getElementById('app'), {
+  onrendered: function(canvas) {
+    document.body.appendChild(canvas);
+  },
+  width: 300,
+  height: 300
+});
 });
 }
   
