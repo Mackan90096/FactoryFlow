@@ -25,25 +25,29 @@
 }
 
 .wooden-chest{
-  background-color: brown;
+  /*background-color: brown;*/
+  background-image: url("http://www.factorioforums.com/wiki/images/Wooden-chest.png");
   width: 32px;
   height: 32px;
 }
 
 .asm-1{
- background-color: cyan;
+ /*background-color: cyan;*/
+ background-image: url("http://www.factorioforums.com/wiki/images/Assembling-machine-1.png");
  width: 64px;
  height: 64px;
 }
 
 .steel-chest{
-  background-color: gray;
+  /*background-color: gray;*/
+  background-image: url("http://www.factorioforums.com/wiki/images/Steel-chest.png");
   width: 32px;
   height: 32px;
 }
 
 .stone-wall{
-  background-color: darkgray;
+  /*background-color: darkgray;*/
+  background-image: url("http://www.factorioforums.com/wiki/images/Wall.png");
   width: 32px;
   height: 32px;
 }
