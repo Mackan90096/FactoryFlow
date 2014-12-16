@@ -6,7 +6,7 @@
     "group": "Production",
     "id": "stone-furnace"
   },
-  "transport-belt": {
+   "transport-belt": {
     "image": "transport-belt.png",
     "name": "Basic Transport Belt",
     "type": "Belt",
@@ -33,5 +33,19 @@
     "type": "Assembly",
     "group": "Assembly",
     "id": "asm-1"
+  },
+  "steel-chest": {
+    "image": "steel-chest.png",
+    "name": "Steel Chest",
+    "type": "Chest",
+    "group": "Storage",
+    "id": "steel-chest"
+  },
+  "wall": {
+    "image": "wall.png",
+    "name": "Stone Wall",
+    "type": "Defence",
+    "group": "Defence",
+    "id": "stone-wall"
   }
 }
