@@ -16,9 +16,11 @@ function foo(a){
 }
 
 function toImage(){
-  canvas = document.getElementById('app').getContext('2d');
-  //image.src = canvas.toDataURL("image/png");
-  window.open('', canvas.toDataURL());
+  html2canvas('app', {
+    onrendered: function(canvas) {
+        window.open('', canvas)
+    }
+});
 }
   
   var appWin = $('#app');
