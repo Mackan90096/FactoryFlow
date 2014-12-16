@@ -1,15 +1,13 @@
 $(document).ready(function(){
-  
-  (function( $ ){
-$.fn.rotate = function(deg) {
+
+  $.fn.rotate = function(deg) {
     this.css({'transform': 'rotate('+deg+'deg)'});
     this.css({'-ms-transform': 'rotate('+deg+'deg)'});
     this.css({'-moz-transform': 'rotate('+deg+'deg)'});
     this.css({'-o-transform': 'rotate('+deg+'deg)'}); 
     this.css({'-webkit-transform': 'rotate('+deg+'deg)'});
     return this; 
-};
-})( jQuery );
+  };
 
   
   var appWin = $('#app');
