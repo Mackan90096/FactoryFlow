@@ -34,7 +34,14 @@ $(document).ready(function(){
   
   $('body').on('keyup', function(e){
     if(e.keyCode == 82){
-      var tr = $('.selected').css('transform');
+      var el = document.getElementsByClassName("selected");
+var st = window.getComputedStyle(el, null);
+var tr = st.getPropertyValue("-webkit-transform") ||
+         st.getPropertyValue("-moz-transform") ||
+         st.getPropertyValue("-ms-transform") ||
+         st.getPropertyValue("-o-transform") ||
+         st.getPropertyValue("transform") ||
+         "fail...";
       var values = tr.split('(')[1];
     values = values.split(')')[0];
     values = values.split(',');
