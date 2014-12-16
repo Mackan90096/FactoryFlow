@@ -34,7 +34,7 @@ $(document).ready(function(){
   
   $('body').on('keyup', function(e){
     if(e.keyCode == 82){
-      var tr = $('.selected').css('tranform')
+      var tr = $('.selected').css('tranform');
       var values = tr.split('(')[1];
     values = values.split(')')[0];
     values = values.split(',');
