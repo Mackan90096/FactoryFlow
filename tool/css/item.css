@@ -1,7 +1,8 @@
  /* Items */
 .stone-furnace{
-  background-color: #000;
-  width: 64px;
+  /*background-color: #000;*/
+  background-image: url("http://www.factorioforums.com/wiki/images/Stone-furnace.png");
+  width: 32px;
   height: 64px;
 }
 
