@@ -32,7 +32,7 @@ $(document).ready(function(){
   
   $('body').on('keyup', function(e){
     if(e.keyCode == 82){
-      $('.selected').rotate(90);
+      $('.selected').rotate(+90);
     }
   });
   
