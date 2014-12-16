@@ -15,9 +15,7 @@ $(document).ready(function(){
     });
   
     $('body').on('click', '.mach', function(){
-       var p = appWin.append("<div class='item "+this.id+"'></div>");
-       p.css('top','0px');
-       p.css('left','0px');
+       var p = appWin.append("<div class='item "+this.id+"'></div>").css('top','0px').css('left','0px');
         $('.item').draggable({ grid:[ 16, 16 ], containment:'#app' });
   });
   
