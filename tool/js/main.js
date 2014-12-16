@@ -32,6 +32,8 @@ $(document).ready(function(){
   
   $('body').on('keyup', function(e){
     if(e.keyCode == 82){
+      var deg = $('.selected').css('transform');
+      console.log(deg);
       $('.selected').rotate(+90);
     }
   });
