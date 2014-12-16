@@ -18,7 +18,8 @@
 }
 
 .fast-inserter{
-  background-color: blue;
+  /*background-color: blue;*/
+  background-image: url("http://www.factorioforums.com/wiki/images/Fast-inserter.png");
   width: 32px;
   height: 32px;
 }
