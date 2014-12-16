@@ -16,12 +16,12 @@ function foo(a){
 }
 
 function toImage(){
-  html2canvas(document.body, {
-  onrendered: function(canvas) {
-    console.log(canvas);
-    window.open('', canvas);
-  }
-  });
+  html2canvas($("#app"), {
+    onrendered: function(canvas) {
+        var myImage = canvas.toDataURL("img/png");
+        window.open(myImage);
+    }
+});
 }
   
   var appWin = $('#app');
