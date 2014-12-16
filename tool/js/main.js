@@ -30,7 +30,7 @@ $(document).ready(function(){
         $('.item').draggable({ grid:[ 16, 16 ], containment:'#app' });
   });
   
-  $('#app').on('keyup', function(e){
+  $('body').on('keyup', function(e){
     if(e.keyCode == 82){
       $('.selected').rotate(90);
     }
