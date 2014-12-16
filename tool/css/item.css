@@ -1,7 +1,7 @@
  /* Items */
 .stone-furnace{
   /*background-color: #000;*/
-  background-image: url("http://www.factorioforums.com/wiki/images/Stone-furnace.png");
+  background-image: url("./image/Stone-furnace.png");
   width: 32px;
   height: 64px;
 }
@@ -10,7 +10,7 @@
   /*background-color: yellow;*/
   width: 32px;
   height: 32px;
-  background-image: url("https://raw.githubusercontent.com/Mackan90096/Factorio_Mod/master/graphics/icons/belt.png");
+  background-image: url("./image/belt.png");
 }
 
 .item{
@@ -24,35 +24,35 @@
 
 .fast-inserter{
   /*background-color: blue;*/
-  background-image: url("http://www.factorioforums.com/wiki/images/Fast-inserter.png");
+  background-image: url("./image/Fast-inserter.png");
   width: 32px;
   height: 32px;
 }
 
 .wooden-chest{
   /*background-color: brown;*/
-  background-image: url("http://www.factorioforums.com/wiki/images/Wooden-chest.png");
+  background-image: url("./image/Wooden-chest.png");
   width: 32px;
   height: 32px;
 }
 
 .asm-1{
  /*background-color: cyan;*/
- background-image: url("http://www.factorioforums.com/wiki/images/Assembling-machine-1.png");
+ background-image: url("./image/Assembling-machine-1.png");
  width: 64px;
  height: 64px;
 }
 
 .steel-chest{
   /*background-color: gray;*/
-  background-image: url("http://www.factorioforums.com/wiki/images/Steel-chest.png");
+  background-image: url("./image/Steel-chest.png");
   width: 32px;
   height: 32px;
 }
 
 .stone-wall{
   /*background-color: darkgray;*/
-  background-image: url("http://www.factorioforums.com/wiki/images/Wall.png");
+  background-image: url("./image/Wall.png");
   width: 32px;
   height: 32px;
 }
