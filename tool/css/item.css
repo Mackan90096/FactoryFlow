@@ -16,6 +16,10 @@
 .item{
   background-repeat: no-repeat;
   display: inline-block;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 
 .fast-inserter{
