@@ -49,8 +49,7 @@ $(document).ready(function(){
     
     // works!
     console.log('Rotate: ' + angle + 'deg');
-      console.log(deg);
-      $('.selected').rotate(+90);
+      $('.selected').rotate(angle+90);
     }
   });
   
