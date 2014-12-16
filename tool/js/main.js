@@ -35,7 +35,7 @@ $(document).ready(function(){
   $('body').on('keyup', function(e){
     if(e.keyCode == 82){
       var el = document.getElementsByClassName('selected');
-var st = window.getComputedStyle(el, null);
+var st = el;
 var tr = st.getPropertyValue("-webkit-transform") ||
          st.getPropertyValue("-moz-transform") ||
          st.getPropertyValue("-ms-transform") ||
