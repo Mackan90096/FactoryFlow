@@ -11,6 +11,17 @@ $(document).ready(function(){
     return this; 
   };
 
+function toImage(canvas, callback) {
+  var image = new Image();
+  image.onload = function(){
+    callback(image);
+  }
+  image.src = canvas.toDataURL("image/png");
+}
+
+function foo(a){
+  console.log(a);
+}
   
   var appWin = $('#app');
   var menu = $('.menu');
@@ -50,6 +61,8 @@ $(document).ready(function(){
     // works!
     console.log('Rotate: ' + angle + 'deg');
       $('.selected').rotate(angle+90);
+    }else if(e.keyCode == 83){
+      toImage('app', foo);
     }
   });
   
