@@ -57,4 +57,10 @@
   height: 32px;
 }
 
+.basic-splitter{
+ background-image: url("./image/icons/basic-splitter.png");
+ width: 32px;
+ height: 32px;
+}
+
 /* End Items */
