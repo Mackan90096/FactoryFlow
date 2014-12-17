@@ -65,6 +65,12 @@ function toImage(){
       $('.selected').rotate(angle+90);
     }else if(e.keyCode == 83){
       toImage('app', foo);
+    }else if(e.keyCode == 77){
+      if(menu.hasClass('hide')){
+        menu.removeClass('hide');
+      }else{
+        menu.addClass('hide');
+      }
     }
   });
   
