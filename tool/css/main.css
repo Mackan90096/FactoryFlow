@@ -15,6 +15,10 @@ body{
   display: none;
 }
 
+.item{
+  border: 1px dotted #ccc;
+}
+
 .selected{
   border: 1px solid turquoise;
 }
