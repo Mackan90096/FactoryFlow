@@ -16,13 +16,11 @@ body{
 }
 
 .menu{
-  height: 100px;
-  overflow: scroll;
-}
-
-#slider{
-  max-width: 128px;
-position: relative;
-top: 6px;
-right: -25em;
+  height: 80%;
+width: 157px;
+overflow: scroll;
+position: absolute;
+left: 3px;
+top: 35px;
+background-color: rgba(255,255,255,0.4);
 }
