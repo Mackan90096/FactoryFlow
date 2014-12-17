@@ -47,5 +47,12 @@
     "type": "Defence",
     "group": "Defence",
     "id": "stone-wall"
+  },
+  "basic-splitter":{
+    "image": "basic-splitter.png",
+    "name": "Basic Splitter",
+    "type": "Belt",
+    "group": "Production",
+    "id": "basic-splitter"
   }
 }
