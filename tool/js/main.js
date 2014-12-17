@@ -71,6 +71,12 @@ function toImage(){
       }else{
         menu.addClass('hide');
       }
+    }else if(e.keyCode == 66){
+      if($('.item').hasClass('border')){
+        $('.item').addClass('border');
+      }else{
+        $('.item').removeClass('border');
+      }
     }
   });
   
