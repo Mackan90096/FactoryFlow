@@ -11,6 +11,10 @@ body{
   background-color: #888;
 }
 
+.hide{
+  display: none;
+}
+
 .selected{
   border: 1px solid turquoise;
 }
